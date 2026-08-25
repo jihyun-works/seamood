@@ -1,0 +1,598 @@
+@charset "utf-8";
+
+/* webfont-maruburi */
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2);
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* webfont-pretendard */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #666;
+}
+
+#wrap {
+    min-width: 1500px;
+    overflow: hidden;
+}
+
+.section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* title */
+.title {
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color: #1F4E79;
+    font-size: 50px;
+    padding-top: 139px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.line .s {
+    display: block;
+    width: 63px;
+    height: 3px;
+    background-color: #1F4E79;
+
+}
+
+/* btn */
+.btn,
+.shop_btn {
+    display: block;
+    width: 170px;
+    border: 1px #1F4E79 solid;
+    color: #1F4E79;
+    font-family: "MaruBuri";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 50px;
+}
+
+.btn:hover,
+.shop_btn:hover {
+    color: #fafcfc;
+    background-color: #1F4E79;
+}
+
+.shop_btn:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* visual */
+#visual{
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.inner_visual{
+    width: 1440px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.visual_text{
+    height: 100%;
+    color: #1F4E79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.visual_text .visual_main{
+    font-family: "MaruBuri";
+    font-size: 46px;
+    line-height: 62px;
+    font-weight: 300;
+}
+.visual_text .visual_sub{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 22px;
+}
+
+/* section1 */
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.brandstory {
+    width: 37%;
+}
+.title{
+    padding-top: 177px;
+}
+
+.brandstory .line {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 28px;
+}
+
+.brandstory .slogan {
+    font-family: "MaruBuri";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    color: #1F4E79;
+    padding: 24px 0 0;
+}
+
+.slogan span {
+    color: #78CBCD;
+}
+
+.brandstory p {
+    font-size: 18px;
+}
+
+.brandstory p:nth-child(4) {
+    padding: 26px 0 35px;
+}
+.brandstory p:nth-child(6){
+    color: #1F4E79;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.brandstory_img{
+    padding-top: 364px;
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.brandstory_img .img_wrap img{
+    border-radius: 8px;
+}
+.brandstory_img .img_wrap:first-child{
+    width: 600px;
+}
+.brandstory_img .img_wrap:nth-child(2){
+    width: 394px;
+}
+.brandstory_img .img_wrap:nth-child(1){
+    position: absolute;
+    right: 163px;
+    bottom: 61px;
+    z-index: -2;
+}
+
+/* section2 */
+#section2 {
+
+}
+
+
+/* section3 */
+#section3 {
+    height: 549px;
+    background: url(../images/index/section3_bg.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.inner .line .s {
+    display: block;
+    width: 1px;
+    height: 87px;
+    background-color: #AEDEDF;
+}
+
+.inner p:nth-child(2),
+.inner p:nth-child(3) {
+    font-family: "MaruBuri";
+}
+
+.inner p:nth-child(2) {
+    color: #AEDEDF;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.18em;
+    padding: 25px 0 40px;
+}
+
+.inner p:nth-child(3) {
+    color: #1F4E79;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.inner p:nth-child(4) {
+    font-size: 18px;
+    padding-top: 43px;
+}
+
+/* section4 */
+#section4 {
+    text-align: center;
+}
+
+#section4 .line {
+    margin-bottom: 84px;
+}
+
+.life_style {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.life_style .info {
+    width: 585px;
+}
+
+.life_style .info p:first-child {
+    font-family: "Cormorant Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    color: #1F4E79;
+    padding: 30px 0 41px;
+}
+
+.life_style .info p:nth-child(2) {
+    font-family: "Maruburi";
+    font-weight: 300;
+    font-size: 20px;
+    color: #1F4E79;
+}
+
+.life_style .info p:nth-child(3) {
+    line-height: 23px;
+    padding: 47px 0 15px;
+}
+
+.shop_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 134px;
+}
+
+.shop_btn .btn_img {
+    padding-left: 14px;
+}
+
+/* section5 */
+#section5 {
+    text-align: center;
+    height: 1111px;
+    background-color: #F4F9F8;
+    margin-top: 116px;
+}
+
+#section5 .class_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 32px;
+}
+
+#section5 .class_info li:nth-child(2) {
+    padding-top: 147px;
+}
+
+#section5 .class_info li .cover_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+#section5 .class_info li .cover_wrap img {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+#section5 .class_info li .cover_wrap .class_title {
+    position: absolute;
+    left: 29px;
+    top: 36px;
+    font-family: "Maruburi";
+    font-weight: 600;
+    font-size: 23px;
+    color: #1F4E79;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+#section5 .class_info li .cover_wrap>.img_wrap {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#section5 .class_info li .cover_wrap:hover img {
+    transform: scale(1.1);
+}
+
+#section5 .class_info li .cover_wrap:hover .class_title {
+    display: none;
+}
+
+#section5 .class_info li .cover_wrap .cover {
+    background-color: rgba(31, 43, 51, 0.58);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fafcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#section5 .class_info li .cover_wrap:hover .cover {
+    opacity: 1;
+}
+
+#section5 .class_info li .cover_wrap .cover p:first-child {
+    font-family: "MaruBuri";
+    font-size: 33px;
+}
+
+#section5 .class_info li .cover_wrap .cover p:nth-child(2) {
+    font-size: 26px;
+    line-height: 38px;
+    padding: 120px 0 90px;
+}
+
+#section5 .class_info li .cover_wrap .cover p {
+    transform: translateY(-250px);
+    transition: all 0.5s;
+}
+
+#section5 .class_info li .cover_wrap:hover .cover p {
+    transform: translateY(0);
+}
+
+#section5 .class_info li .cover_wrap .cover a {
+    color: #fafcfc;
+    border-color: #fafcfc;
+    font-weight: 400;
+    width: 150px;
+    transform: translateY(100px);
+    transition: all 0.5s;
+}
+
+#section5 .class_info li .cover_wrap:hover .cover a {
+    transform: translateY(0);
+}
+
+#section5 .class_info li .cover_wrap .cover .shop_btn img {
+    filter: brightness(0) invert(1);
+}
+
+#section5 .class_info li .cover_wrap .cover .shop_btn:hover {
+    background-color: #fafcfc;
+    color: #1F4E79;
+}
+
+#section5 .class_info li .cover_wrap .cover .shop_btn:hover img {
+    filter: none;
+}

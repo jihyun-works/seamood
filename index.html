@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440">
+    <title>SEAMOOD</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/header_footer/favicon.svg" type="image/x-icon">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Nanum+Brush+Script&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/header_style.css">
+    <link rel="stylesheet" href="./css/main_style.css">
+    <!-- AOS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- GSAP cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- header_S -->
+        <div id="header">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./images/header_footer/logo.svg" alt="logo" width="140" height="84">
+                </a>
+            </h1>
+            <ul class="util">
+                <li>
+                    <input type="text" placeholder="search">
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="login img_wrap">
+                            <img src="./images/header_footer/icon_login.svg" alt="login">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="join img_wrap">
+                            <img src="./images/header_footer/icon_join.svg" alt="join">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- header_E -->
+
+        <!-- nav_S -->
+        <div id="nav">
+            <div class="inner_nav">
+                <ul class="gnb">
+                    <li><a href="./sub/sub1.html">Brand</a></li>
+                    <li><a href="sub2.html">Shop</a></li>
+                    <li><a href="sub3.html">Experience</a></li>
+                    <li><a href="sub4.html">Journal</a></li>
+                    <li><a href="sub5.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- submenu -->
+            <div class="submenu">
+                <div class="inner_submenu">
+                    <ul>
+                        <li><a href="#">브랜드 스토리</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">향수</a></li>
+                        <li><a href="#">디퓨저</a></li>
+                        <li><a href="#">캔들</a></li>
+                        <li><a href="#">기프트 세트</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">공예 클래스</a></li>
+                        <li><a href="#">예약 안내</a></li>
+                        <li><a href="#">후기</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">감정의 기록</a></li>
+                        <li><a href="#">SEAMOOD 소식</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- nav_E -->
+
+        <!-- visual_S -->
+        <div id="visual">
+            <div class="video_wrap">
+                <video src="video/main.mp4" loop muted autoplay playsinline webkit-playsinline></video>
+            </div>
+        </div>
+        <!-- visual_E -->
+
+        <!-- section1_S -->
+        <div id="section1" class="section">
+            <div class="brandstory" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="title">Brand Story</h2>
+                <p class="slogan">
+                    바다가 품은 감정을,
+                    <br><span>향으로 기록합니다.</span>
+                </p>
+                <div class="line">
+                    <span class="s"></span>
+                </div>
+                <p>
+                    SEAMOOD는 바다에서 느껴지는 다양한 감정을
+                    <br>향과 공예 경험으로 기록합니다.
+                </p>
+                <p>
+                    모든 마음을 있는 그대로 마주하고,
+                    <br>천천히 흘려보낼 수 있도록
+                    <br>일상에 바다의 잔잔한 쉼을 전합니다.
+                </p>
+                <a href="sub1.html" class="btn">자세히 보기</a>
+            </div>
+            <div class="brandstory_img">
+                <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="./images/index/seaglass.jpg" alt="seaglass">
+                </div>
+                <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                    <img src="./images/index/perfume.jpg" alt="perfume">
+                </div>
+                <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+                    <img src="./images/index/candle.jpg" alt="candle">
+                </div>
+                <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1400">
+                    <img src="./images/index/ocean.jpg" alt="ocean">
+                </div>
+            </div>
+        </div>
+        <!-- section1_E -->
+
+        <!-- section2_S -->
+        <div id="section2">
+            <h2 class="title parallax__item__desc split">
+                Fragrance Lifestyle
+            </h2>
+            <div class="line" data-aos="fade-down">
+                <span class="s"></span>
+            </div>
+            <div id="slide" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <ul class="swiper-slide">
+                        <li><a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/seabreeze.jpg" alt="sea_breeze">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video class="hover-video" src="./video/sea_breeze.mp4" muted loop autoplay playsinline webkit-playsinline></div>
+                                    <div class="cover video_info">
+                                        <p>SEA BREEZE</p>
+                                        <P>설렘·자유·새로운 시작</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/sunsettide.jpg" alt="sunset_tide">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video src="./video/sunset_tide.mp4" autoplay loop muted playsinline webkit-playsinline></video>
+                                    </div>
+                                    <div class="cover video_info">
+                                        <p>SUNSET TIDE</p>
+                                        <P>그리움·회상·따뜻한 여운</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/moonlit.jpg" alt="moonlit_reef">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video src="./video/moonlit_reef.mp4" autoplay loop muted playsinline webkit-playsinline></video>
+                                    </div>
+                                    <div class="cover video_info">
+                                        <p>MOONLIT
+                                            <br>REEF
+                                        </p>
+                                        <P>몽환·고요함·잔잔한 위로</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/deepblue.jpg" alt="deep_blue">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video src="./video/deep_blue.mp4" autoplay loop muted playsinline webkit-playsinline></video>
+                                    </div>
+                                    <div class="cover video_info">
+                                        <p>DEEP BLUE</p>
+                                        <P>사색·고요함·깊은 밤바다</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/morningshore.jpg" alt="morning_shore">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video src="./video/morning_shore.mp4" autoplay loop muted playsinline webkit-playsinline></video>
+                                    </div>
+                                    <div class="cover video_info">
+                                        <p>MORNING
+                                            <br>SHORE
+                                        </p>
+                                        <P>희망·안정·가벼운 설렘</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><a href="#" class="cover_wrap">
+                                <div class="screen">
+                                    <img src="./images/index/fadingwave.jpg" alt="fading_wave">
+                                </div>
+                                <div class="cover">
+                                    <div class="video_wrap">
+                                        <video src="./video/fading_wave.mp4" autoplay loop muted playsinline webkit-playsinline></video>
+                                    </div>
+                                    <div class="cover video_info">
+                                        <p>FADING
+                                            <br>WAVE
+                                        </p>
+                                        <P>슬픔·정리·잔잔한 아픔</P>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- section2_E -->
+
+        <!-- section3_S -->
+        <div id="section3">
+            <div class="inner section">
+                <div class="line" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <span class="s"></span>
+                </div>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">SEAMOOD</p>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">취향을 찾아보세요.</p>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
+                    지금의 당신에게 어울리는 향을 발견해보세요.
+                    <br>당신의 감정과 바다의 곁이 만나는 순간.
+                </p>
+                <a href="sub4.html" class="btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">나의 향
+                    찾기</a>
+            </div>
+        </div>
+        <!-- section3_E -->
+
+        <!-- section4_S -->
+        <div id="section4">
+            <div class="section">
+                <h2 class="title">
+                    Fragrance Lifestyle
+                </h2>
+                <div class="line">
+                    <span class="s"></span>
+                </div>
+                <ul class="life_style">
+                    <li>
+                        <div class="img_wrap" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="./images/index/diffuser1.jpg" alt="diffuser">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+                            <img src="./images/index/diffuser2.jpg" alt="diffuser">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1700">
+                            <p>DIFFUSER</p>
+                            <p>머무는 공간에,
+                                <br>바다의 숨을 들이쉬다.
+                            </p>
+                            <p>
+                                창가로 스며드는 바람처럼
+                                <br>맑고 은은한 향이 공간의 결을 부드럽게 바꿉니다.
+                            </p>
+                            <a href="#" class="shop_btn">제품보기
+                                <div class="img_wrap btn_img">
+                                    <img src="./images/index/Icon_info.svg" alt="shop_btn">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="life_style">
+                    <li>
+                        <div class="info" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1700">
+                            <p>CANDLE</p>
+                            <p>하루의 끝에 밝히는 바람,
+                                <br>작고 고용한 바다
+                            </p>
+                            <p>
+                                잔잔한 불빛과 천천히 번지는 향이
+                                <br>흐트러진 마음에 조용한 쉼을 겁넵니다.
+                            </p>
+                            <a href="#" class="shop_btn">제품보기
+                                <div class="img_wrap btn_img">
+                                    <img src="./images/index/Icon_info.svg" alt="shop_btn">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+                            <img src="./images/index/candle1.jpg" alt="candle">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img_wrap" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="./images/index/candle2.jpg" alt="candle">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- section4_E -->
+
+        <!-- section5_S -->
+        <div id="section5">
+            <div class="section">
+                <h2 class="title">
+                    Class Experience
+                </h2>
+                <div class="line">
+                    <span class="s"></span>
+                </div>
+                <ul class="class_info">
+                    <li>
+                        <div class="cover_wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="img_wrap">
+                                <img src="./images/index/candle_class.jpg" alt="candle_class">
+                            </div>
+                            <p class="class_title">캔들 클래스</p>
+                            <div class="cover">
+                                <p>캔들 클래스</p>
+                                <p>
+                                    하루의 끝에 머무는 마음을
+                                    <br>작은 불빛과 향으로 밝혀보세요.
+                                </p>
+                                <a href="#" class="shop_btn">
+                                    클래스 보기
+                                    <div class="img_wrap btn_img">
+                                        <img src="./images/index/Icon_info.svg" alt="shop_btn">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cover_wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="img_wrap">
+                                <img src="./images/index/perfume_class.jpg" alt="perfume_class">
+                            </div>
+                            <p class="class_title">향수 클래스</p>
+                            <div class="cover">
+                                <p>향수 클래스</p>
+                                <p>
+                                    오늘의 감정을 조합해
+                                    <br>나만의 향으로 기록해 보세요.
+                                </p>
+                                <a href="#" class="shop_btn">
+                                    클래스 보기
+                                    <div class="img_wrap btn_img">
+                                        <img src="./images/index/Icon_info.svg" alt="shop_btn">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cover_wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="img_wrap">
+                                <img src="./images/index/glass_class.jpg" alt="glass_class">
+                            </div>
+                            <p class="class_title">유리 클래스</p>
+                            <div class="cover">
+                                <p>유리 클래스</p>
+                                <p>
+                                    씨글라스와 재활용 유리로
+                                    <br>작은 바다의 조각을 완성해 보세요.
+                                </p>
+                                <a href="#" class="shop_btn">
+                                    클래스 보기
+                                    <div class="img_wrap btn_img">
+                                        <img src="./images/index/Icon_info.svg" alt="shop_btn">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- section5_E -->
+
+        <!-- footer_S -->
+        <div id="footer">
+            <div class="section">
+                <ul>
+                    <li>
+                        <h1 class="logo_footer">
+                            <a href="index.html">
+                                <img src="./images/header_footer/logo_type.svg" alt="logo">
+                            </a>
+                        </h1>
+                    </li>
+                    <li>
+                        <p>
+                            바다가 품은 감정을 향으로 기록하고,
+                            <br>일상에 잔잔한 쉼을 전합니다.
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="sub1.html" class="page_title">BRAND</a>
+                    </li>
+                    <li>
+                        <a href="#">브랜드 스토리</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="sub2.html" class="page_title">SHOP</a>
+                    </li>
+                    <li>
+                        <a href="#">향수</a>
+                    </li>
+                    <li>
+                        <a href="#">디퓨저</a>
+                    </li>
+                    <li>
+                        <a href="#">캔들</a>
+                    </li>
+                    <li>
+                        <a href="#">기프트 세트</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="sub3.html" class="page_title">EXPERIENCE</a>
+                    </li>
+                    <li>
+                        <a href="#">공예 클래스</a>
+                    </li>
+                    <li>
+                        <a href="#">예약 안내</a>
+                    </li>
+                    <li>
+                        <a href="#">후기</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="sub4.html" class="page_title">JOURNAL</a>
+                    </li>
+                    <li>
+                        <a href="#">감정의 기록</a>
+                    </li>
+                    <li>
+                        <a href="#">SEAMOOD 소식</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="sub5.html" class="page_title">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="#">이용안내</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                    </li>
+                </ul>
+                <ul class="sns">
+                    <li>
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="./images/header_footer/sns_instagram.svg" alt="instagram">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="./images/header_footer/sns_youtube.svg" alt="youtube">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="./images/header_footer/sns_x.svg" alt="x">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <span>OPEN</span>
+                            10:00 - 18:00
+                        </p>
+                        <p>
+                            <span>CLOSED</span>
+                            WEEKEND & HOLIDAY
+                        </p>
+                        <p>
+                            <span>문의</span>
+                            seamood@seamood.com
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <p>Copyright © 2026.SEAMOOD. All Rights Reserved.</p>
+        </div>
+        <!-- footer_E -->
+    </div>
+
+    <!-- jQuery오픈소스 -->
+    <script src="./js/jquery-4.0.0.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <!-- 제어코드 -->
+    <script src="./js/script.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+        const wrapper = document.querySelector('#slide .swiper-wrapper');
+        const originalSlides = Array.from(wrapper.children);
+
+        originalSlides.forEach(function (slide, index) {
+            slide.dataset.realIndex = index;
+        });
+
+        const beforeSlides = originalSlides.map(function (slide) {
+            return slide.cloneNode(true);
+        });
+        const afterSlides = originalSlides.map(function (slide) {
+            return slide.cloneNode(true);
+        });
+
+        beforeSlides.reverse().forEach(function (slide) {
+            wrapper.insertBefore(slide, wrapper.firstChild);
+        });
+        afterSlides.forEach(function (slide) {
+            wrapper.appendChild(slide);
+        });
+
+        function updateSlideScale(swiper) {
+            swiper.slides.forEach(function (slide) {
+                slide.classList.remove(
+                    'size-center',
+                    'size-middle',
+                    'size-small-left',
+                    'size-small-right'
+                );
+            });
+
+            const active = swiper.slides[swiper.activeIndex];
+            if (!active) return;
+
+            const prev1 = active.previousElementSibling;
+            const prev2 = prev1 && prev1.previousElementSibling;
+            const next1 = active.nextElementSibling;
+            const next2 = next1 && next1.nextElementSibling;
+
+            active.classList.add('size-center');
+            if (prev1) prev1.classList.add('size-middle');
+            if (next1) next1.classList.add('size-middle');
+            if (prev2) prev2.classList.add('size-small-left');
+            if (next2) next2.classList.add('size-small-right');
+        }
+
+        function updatePagination(swiper) {
+            const active = swiper.slides[swiper.activeIndex];
+            if (!active) return;
+
+            const realIndex = Number(active.dataset.realIndex);
+            document.querySelectorAll('#slide .custom-bullet').forEach(function (bullet, index) {
+                bullet.classList.toggle('swiper-pagination-bullet-active', index === realIndex);
+            });
+        }
+
+        function createPagination(swiper) {
+            const pagination = document.querySelector('#slide .swiper-pagination');
+            pagination.innerHTML = '';
+
+            originalSlides.forEach(function (_, index) {
+                const bullet = document.createElement('span');
+                bullet.className = 'swiper-pagination-bullet custom-bullet';
+                bullet.setAttribute('role', 'button');
+                bullet.setAttribute('aria-label', (index + 1) + '번 슬라이드');
+                bullet.addEventListener('click', function () {
+                    swiper.slideTo(6 + index);
+                });
+                pagination.appendChild(bullet);
+            });
+        }
+
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 5,
+            slidesPerGroup: 1,
+            spaceBetween: 0,
+            centeredSlides: true,
+            // autoplay: true,
+            loop: true,
+            initialSlide: 6,
+            speed: 300,
+            observer: true,
+            observeParents: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            on: {
+                init: function (swiper) {
+                    createPagination(swiper);
+                    updateSlideScale(swiper);
+                    updatePagination(swiper);
+                },
+                slideChange: function (swiper) {
+                    updateSlideScale(swiper);
+                    updatePagination(swiper);
+                },
+                slideChangeTransitionEnd: function (swiper) {
+                    if (swiper.activeIndex < 6) {
+                        swiper.slideTo(swiper.activeIndex + 6, 0, false);
+                    } else if (swiper.activeIndex > 11) {
+                        swiper.slideTo(swiper.activeIndex - 6, 0, false);
+                    }
+                    updateSlideScale(swiper);
+                    updatePagination(swiper);
+                },
+                resize: function (swiper) {
+                    updateSlideScale(swiper);
+                }
+            }
+        });
+    </script>
+     <script>
+        const videos = document.querySelectorAll('.hover-video');
+
+        videos.forEach(video => {
+            video.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            video.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0;
+            });
+        });
+    </script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script>
+        // 01. 텍스트 분리하기
+        // let text = document.querySelector(".split");
+        // let splitText = text.innerText;
+        // let splitWrap = splitText.split("").join("</span><span>");
+        // text.innerHTML = splitWrap = "<span>" + splitWrap + "</span>";
+
+        // 02. 모든 텍스트 분리하기
+        // document.querySelectorAll(".split").forEach(text => {
+        //     let splitWrap = text.innerText.split("").join("</span><span aria-hidddn='true'>");
+        //     text.innerHTML = "<span aria-hidddn='true'>" + splitWrap + "</span>";
+        //     text.setAttribute("aira-label", text.innerText)
+        // });
+
+        // 03. 모든 텍스트 분리하기 : 여백 표현하기
+        // document.querySelectorAll(".split").forEach(text => {
+        //     let theText = text.innerText;
+        //     let newText = "";
+
+        //     for(let i=0; i<text.innerText.length; i++){
+        //         newText += "<span aria-hidden='true'>";
+        //         if(text.innerText[i] == " "){
+        //             newText += "&nbsp";
+        //         } else {
+        //             newText += text.innerText[i];
+        //         }
+        //         newText += "</span>";
+        //     }
+        //     text.innerHTML = newText;
+        //     text.setAttribute("aria-label", theText);
+        // });
+
+        // gsap.from(".split span", {
+        //     yPercent: 100,
+        //     autoAlpha: 0,
+        //     duration: 2,
+        //     ease: "circ.out",
+        //     stagger: 0.1,
+
+        //     scrollTrigger: {
+        //         trigger: ".split",
+        //         start: "top center",
+        //         end: "+=400",
+        //         markers: true,
+        //         scrub: 1,
+        //     }
+        // });
+
+        // gsap.utils.toArray(".split").forEach(text => {
+        //     gsap.from(text.querySelectorAll("span"), {
+        //         yPercent: 100,
+        //         autoAlpha: 0,
+        //         duration: 1,
+        //         ease: "circ.out",
+        //         stagger: {
+        //             amount: 1,
+        //             from : "random"
+        //         },
+        //         scrollTrigger: {
+        //             trigger: text,
+        //             start: "top bottom",
+        //             end: "+=400",
+        //             markers: true
+        //         }
+        //     });
+        // });
+
+        // 04 split-type 사용하기
+        const targets = gsap.utils.toArray(".split");
+
+        targets.forEach(target => {
+            let SplitClient = new SplitType(target, { type: "lines, words, chars" });
+            let lines = SplitClient.lines;
+            let words = SplitClient.words;
+            let chars = SplitClient.chars;
+
+            gsap.from(chars, {
+                yPercent: 100,
+                autoAlpha: 0,
+                duration: 1,
+                ease: "circ.out",
+                stagger: {
+                    amount: 1,
+                    from: "random"
+                },
+                scrollTrigger: {
+                    trigger: target,
+                    start: "top bottom",
+                    end: "+=400",
+                    markers: false,
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
