@@ -269,13 +269,21 @@ body {
 }
 
 /* video */
-#visual .video_wrap {
+#visual {
+    width: 100%;
     height: 700px;
     overflow: hidden;
+    position: relative;
 }
+#visual .video_wrap {
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
 
-#visual .video_wrap video {
-    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
 }
 
 /* section1 */
