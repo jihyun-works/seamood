@@ -285,6 +285,32 @@ body {
     top: 0;
     transform: translateX(-50%);
 }
+.inner_visual{
+    width: 1440px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.visual_text{
+    height: 100%;
+    color: #1F4E79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.visual_text .visual_main{
+    font-family: "MaruBuri";
+    font-size: 46px;
+    line-height: 62px;
+    font-weight: 300;
+}
+.visual_text .visual_sub{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 22px;
+}
 
 /* section1 */
 #section1 {
