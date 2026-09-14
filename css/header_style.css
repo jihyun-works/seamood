@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+/* webfont-maruburi */
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2);
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2);
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* webfont-pretendard */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #666;
+    background-color: #fafcfc;
+}
+
+#wrap {
+    min-width: 1440px;
+}
+
+.img_wrap img {
+    display: block;
+    width: 100%;
+}
+
+/* header */
+#header {
+    width: 1440px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#header .util {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 87px;
+}
+
+#header .util li {
+    margin-right: 10px;
+}
+
+#header .util li:first-child {
+    width: 101px;
+    height: 28px;
+    border: 1px solid #1F4E79;
+    border-radius: 100px;
+    padding: 5px 10px 5px 27px;
+    box-sizing: border-box;
+    background: url(../images/header_footer/icon_search.svg) no-repeat left 5px center;
+}
+
+#header .util li:first-child input {
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    color: #333;
+    font-weight: 100;
+}
+
+/* nav */
+#nav {
+    border-top: #1F4E79 1px solid;
+    border-bottom: #1F4E79 2px solid;
+    position: relative;
+}
+
+.inner_nav {
+    width: 1440px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.gnb {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.gnb>li>a {
+    display: block;
+    width: 96px;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111;
+    padding-bottom: 13px;
+}
+
+.gnb>li>a:hover {
+    color: #AEE7E8;
+}
+
+/* submenu */
+.submenu {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fafcfc;
+    padding: 20px 0 60px;
+    border-bottom: #1F4E79 1px solid;
+}
+
+.inner_submenu {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.submenu li a {
+    display: block;
+    padding: 6px 16px;
+    text-align: center;
+    width: 109px;
+    margin: 0 28px;
+}
+
+.submenu li a:hover {
+    color: #AEE7E8;
+}
+
+/* footer */
+#footer{
+    height: 440px;
+    background: linear-gradient(rgba(211, 240, 255, 0.6) 70%,rgba(198, 227, 225,0.6));
+    text-align: center;
+    font-size: 13px;
+    color: #737373;
+}
+#footer> p{
+    font-family: "MaruBuri";
+    color: #1F4E79;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 90px;
+}
+.logo_footer .img_wrap img{
+    width: 187px;
+    height: 29px;
+}
+#footer .section{
+    display: flex;
+}
+#footer .section ul{
+    border-right: 1px solid rgba(31, 78, 121, 0.22);
+    height: 163px;
+    margin-top: 126px;
+    box-sizing: border-box;
+}
+#footer .section ul li{
+    padding-bottom: 5px;
+}
+#footer .section ul:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+#footer .section ul:first-child p{
+    color: rgba(31, 78, 121, 0.48);
+    padding: 30px 0 27px;
+}
+#footer .section ul:first-child li{
+    padding-bottom: 0;
+}
+#footer .section ul:first-child a{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 12px;
+}
+#footer .section ul:nth-child(2),
+#footer .section ul:nth-child(3),
+#footer .section ul:nth-child(4),
+#footer .section ul:nth-child(5),
+#footer .section ul:nth-child(6){
+    width: 175px;
+}
+#footer .section ul:nth-child(7){
+    border: none;
+}
+#footer .section ul li a{
+    display: block;
+    margin: 0 35px;
+}
+#footer .section ul li .page_title{
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F4E79;
+    margin-bottom: 19px;
+}
+
+
+#footer .section .sns{
+    width: 301px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 16px;
+}
+#footer .section .sns li a .img_wrap img{
+    width: 35px;
+    height: 35px;
+}
+#footer .section .sns li a{
+    display: block;
+    margin: 0 8.5px;
+}
+#footer .section .sns li p span{
+    color: #1F4E79;
+    font-weight: 500;
+}
+#footer .section .sns li:nth-child(4) p:first-child{
+    padding-top: 24px;
+}
+#footer .section .sns li:nth-child(4) p:nth-child(2){
+    padding: 12px 0;
+}
