@@ -481,6 +481,10 @@ body {
         height: 54px;
     }
 }
+#header *,
+#nav * {
+    box-sizing: content-box;
+}
 
 @media (prefers-reduced-motion: reduce){
     .top-button{
